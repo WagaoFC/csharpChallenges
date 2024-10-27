@@ -1,0 +1,16 @@
+C:\Users\Wagner\Desktop\www\Rocketseat\csharp\challenges\challenge03_taskManager\TaskManager.Application\bin\Debug\net8.0\TaskManager.Application.deps.json
+C:\Users\Wagner\Desktop\www\Rocketseat\csharp\challenges\challenge03_taskManager\TaskManager.Application\bin\Debug\net8.0\TaskManager.Application.dll
+C:\Users\Wagner\Desktop\www\Rocketseat\csharp\challenges\challenge03_taskManager\TaskManager.Application\bin\Debug\net8.0\TaskManager.Application.pdb
+C:\Users\Wagner\Desktop\www\Rocketseat\csharp\challenges\challenge03_taskManager\TaskManager.Application\bin\Debug\net8.0\TaskManager.Communication.dll
+C:\Users\Wagner\Desktop\www\Rocketseat\csharp\challenges\challenge03_taskManager\TaskManager.Application\bin\Debug\net8.0\TaskManager.Communication.pdb
+C:\Users\Wagner\Desktop\www\Rocketseat\csharp\challenges\challenge03_taskManager\TaskManager.Application\obj\Debug\net8.0\TaskManager.Application.csproj.AssemblyReference.cache
+C:\Users\Wagner\Desktop\www\Rocketseat\csharp\challenges\challenge03_taskManager\TaskManager.Application\obj\Debug\net8.0\TaskManager.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Wagner\Desktop\www\Rocketseat\csharp\challenges\challenge03_taskManager\TaskManager.Application\obj\Debug\net8.0\TaskManager.Application.AssemblyInfoInputs.cache
+C:\Users\Wagner\Desktop\www\Rocketseat\csharp\challenges\challenge03_taskManager\TaskManager.Application\obj\Debug\net8.0\TaskManager.Application.AssemblyInfo.cs
+C:\Users\Wagner\Desktop\www\Rocketseat\csharp\challenges\challenge03_taskManager\TaskManager.Application\obj\Debug\net8.0\TaskManager.Application.csproj.CoreCompileInputs.cache
+C:\Users\Wagner\Desktop\www\Rocketseat\csharp\challenges\challenge03_taskManager\TaskManager.Application\obj\Debug\net8.0\TaskManager.Application.sourcelink.json
+C:\Users\Wagner\Desktop\www\Rocketseat\csharp\challenges\challenge03_taskManager\TaskManager.Application\obj\Debug\net8.0\TaskMana.898BD9DB.Up2Date
+C:\Users\Wagner\Desktop\www\Rocketseat\csharp\challenges\challenge03_taskManager\TaskManager.Application\obj\Debug\net8.0\TaskManager.Application.dll
+C:\Users\Wagner\Desktop\www\Rocketseat\csharp\challenges\challenge03_taskManager\TaskManager.Application\obj\Debug\net8.0\refint\TaskManager.Application.dll
+C:\Users\Wagner\Desktop\www\Rocketseat\csharp\challenges\challenge03_taskManager\TaskManager.Application\obj\Debug\net8.0\TaskManager.Application.pdb
+C:\Users\Wagner\Desktop\www\Rocketseat\csharp\challenges\challenge03_taskManager\TaskManager.Application\obj\Debug\net8.0\ref\TaskManager.Application.dll
