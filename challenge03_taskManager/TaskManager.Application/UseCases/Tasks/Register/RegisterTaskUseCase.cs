@@ -10,7 +10,7 @@ public class RegisterTaskUseCase
         return new ResponseRegisteredTaskJson
         {
             id = 7,
-            task = request.name,
+            task = request.Name,
         };
     }
 }

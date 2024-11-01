@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using TaskManager.Application.UseCases.Tasks.GetAll;
+using TaskManager.Application.UseCases.Tasks.GetById;
 using TaskManager.Application.UseCases.Tasks.Register;
 using TaskManager.Communication.Requests;
 using TaskManager.Communication.Responses;
@@ -33,5 +34,16 @@ public class TaskController : ControllerBase
         }
 
         return NoContent();
+    }
+    
+    [HttpGet]
+    [Route("{id}")]
+    [ProducesResponseType(typeof(ResponseTaskJson), StatusCodes.Status200OK)]
+    [ProducesResponseType(typeof(ResponseErrorsJson), StatusCodes.Status404NotFound)]
+    public IActionResult GetTaskById([FromRoute] int id)
+    {
+        var response = new GetTaskByIdUseCase().Execute(id);
+
+        return Ok(response);
     }
 }
