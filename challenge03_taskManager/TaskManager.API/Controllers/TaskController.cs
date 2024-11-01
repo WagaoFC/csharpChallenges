@@ -2,6 +2,7 @@
 using TaskManager.Application.UseCases.Tasks.GetAll;
 using TaskManager.Application.UseCases.Tasks.GetById;
 using TaskManager.Application.UseCases.Tasks.Register;
+using TaskManager.Application.UseCases.Tasks.Update;
 using TaskManager.Communication.Requests;
 using TaskManager.Communication.Responses;
 
@@ -14,7 +15,7 @@ public class TaskController : ControllerBase
     [HttpPost]
     [ProducesResponseType(typeof(ResponseRegisteredTaskJson), StatusCodes.Status201Created)]
     [ProducesResponseType(typeof(ResponseErrorsJson), StatusCodes.Status400BadRequest)]
-    public IActionResult Register([FromBody] RequestRegisterTaskJson request)
+    public IActionResult Register([FromBody] RequestTaskJson request)
     {
         var response = new RegisterTaskUseCase().Execute(request);
 
@@ -45,5 +46,15 @@ public class TaskController : ControllerBase
         var response = new GetTaskByIdUseCase().Execute(id);
 
         return Ok(response);
+    }
+
+    [HttpPut]
+    [Route("{id}")]
+    [ProducesResponseType(StatusCodes.Status204NoContent)]
+    public IActionResult UpdateTask([FromRoute] int id, [FromBody] RequestTaskJson request)
+    {
+        new UpdateTaskUseCase().Execute(id, request);
+
+        return NoContent();
     }
 }
